@@ -1,0 +1,13 @@
+#This is a basic function that prints True is the input is a vowel
+# or False if the input is a consonant 
+
+#i.e print(is_vowel('a')) will return True
+#print(is_vowel('b')) will return False
+
+
+def is_vowel(x):
+    vowels = 'aeiouAEIOU'
+    if x in vowels:
+        return True
+    else:
+        return False
