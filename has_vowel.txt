@@ -1,0 +1,7 @@
+#one line, one simple function
+#if the input has a vowel is reuturns True, if not it returns False
+#i.e print(has_vowels('bananas')) will return True
+#print(has_vowels('my')) will return False
+
+def has_vowels(string):
+    return any(vowel in string for vowel in 'aeiouAEIOU')
