@@ -1,0 +1,15 @@
+#This is a basic function that inputs a word and return how many vowels are in said word
+
+def count_vowels(string):
+
+#string is the input, lets say we input 'bananas'
+
+    count = 0
+    vowels = 'aeiouAEIOU'
+    for letters in string:
+        if letters in vowels:
+            count = count + 1
+    return count
+    
+ # the output will be how many vowels are in the string,
+ #out put for 'bananas' will be 3
